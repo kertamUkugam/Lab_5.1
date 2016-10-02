@@ -39,6 +39,6 @@
 
     }
 
-
+        alert("Se ha registrado usted correctamente");
         return true;
     }

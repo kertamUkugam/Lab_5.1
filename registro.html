@@ -23,6 +23,8 @@
 
     <script type="text/javascript" src="JS/FormularioValido.js"></script>
 
+    <?php include ("localhost/localHost/Registrar.php") ?>
+
 
     <style type="text/css">
         #submit {
@@ -37,7 +39,7 @@
 <br>
 
 
-<form id='registro' name='registro' onsubmit="return verificar()"  >
+<form action="Registrar.php" method="post" id='registro' name='registro' onsubmit="return verificar()"   >
 
 
 
@@ -75,10 +77,9 @@
 
 
 
+
+
 </form>
-
-
-
 
 
 
